@@ -1,0 +1,3 @@
+This bug demonstrates a common type error in TypeScript. The `greeter` function expects a string argument, but the `user` variable is an array of strings.  This results in a type error because TypeScript's type system prevents assigning an array to a string variable.
+
+The solution demonstrates how to properly handle this by either iterating over the array and calling the function multiple times or by changing the function's signature to accept an array.
